@@ -26,4 +26,21 @@ DATA_INGESTION_INGESTED_DIR : str = "ingested"
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATION : float = 0.2
 
 
+"""
+Data Validation related constant start with Data_Validation var name
+
+"""
+
+DATA_VALIDATION_DIR_NAME : str = "data_validation"
+DATA_VALIDATION_VALID_DIR : str = "validated"
+DATA_VALIDATION_INVALID_DIR : str = "invalid"
+DATA_VALIDATION_DRIFT_REPORT_DIR : str = "drift_report"
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME : str = "report.yaml"
+
+# path to schema definition file used during validation
+SCHEMA_FILE_PATH: str = os.path.join(os.getcwd(), "data_schema", "schema.yaml")
+
+
+
+
 
