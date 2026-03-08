@@ -3,10 +3,13 @@ pandas
 numpy
 pymongo
 certifi
-
+mlflow
 scikit-learn
 dill
 pyaml
+dagshub
+fastapi
+uvicorn
 
 
 
